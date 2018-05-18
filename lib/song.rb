@@ -69,7 +69,7 @@ end
 #destroy_all
 def self.destroy_all()
       # @@all = [ ]
-      self.all = []
+      self.all.clear
 end
 
 end
